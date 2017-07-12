@@ -1,0 +1,281 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eventsframe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar2"
+            layout="@layout/toolbar"></include>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="#424242"
+        tools:context="thegreymanshow.verve2017.Sports">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/longer"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/code"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lf" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/alley"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_below="@+id/longer"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/basketball" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/smash"
+                android:onClick="onClick"
+                android:layout_width="335dp"
+                android:layout_height="185dp"
+                android:layout_below="@+id/alley"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/volley" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/tt"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_below="@+id/smash"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tt" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/s6"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_below="@+id/tt"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/super6" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cage"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_below="@+id/s6"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/cage" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/pro"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_below="@+id/cage"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kabaddi" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/box"
+                android:onClick="onClick"
+                android:layout_width="330dp"
+                android:layout_height="195dp"
+                android:layout_below="@+id/pro"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/box" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chess"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_below="@+id/box"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/chess" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/min"
+                android:onClick="onClick"
+                android:layout_width="320dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/chess"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mini" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/carrom"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_below="@+id/throwb"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/carrom" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/throwb"
+                android:onClick="onClick"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/min"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/throwball" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="thegreymanshow.verve2017">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+
+        <activity android:name="thegreymanshow.verve2017.Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="thegreymanshow.verve2017.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="thegreymanshow.verve2017.Register" />
+
+        <service android:name="thegreymanshow.verve2017.InstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="thegreymanshow.verve2017.MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="thegreymanshow.verve2017.Technical">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thegreymanshow.verve2017.MainActivity" />
+        </activity>
+        <activity android:name="thegreymanshow.verve2017.Sports" />
+        <activity android:name="thegreymanshow.verve2017.FA" />
+        <activity android:name="thegreymanshow.verve2017.LIT" />
+        <activity android:name="thegreymanshow.verve2017.PA" />
+        <activity android:name="thegreymanshow.verve2017.IntroActivity" />
+        <activity android:name="thegreymanshow.verve2017.temp" />
+    </application>
+
+</manifest>

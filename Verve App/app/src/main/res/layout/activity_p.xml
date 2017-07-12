@@ -1,0 +1,200 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eventsframe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar2"
+            layout="@layout/toolbar"></include>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent"
+        android:background="#424242"
+        tools:context="thegreymanshow.verve2017.PA">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/dance"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/code"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/alorsondance" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/vogue"
+                android:onClick="onClick"
+                android:layout_width="195dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/dance"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="#f44336"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/letsnacho" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/redhun"
+                android:onClick="onClick"
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/dance"
+                android:layout_margin="6dp"
+                android:layout_toRightOf="@+id/vogue"
+                app:cardBackgroundColor="#212121"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/redhun" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/spotlight"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/redhun"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/spotlight" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/streets"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/spotlight"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/streets" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/vogue2"
+                android:onClick="onClick"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/streets"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#f44336"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nukkadnatak" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/vogue3"
+                android:onClick="onClick"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/streets"
+                android:layout_margin="12dp"
+                android:layout_toRightOf="@+id/vogue2"
+                app:cardBackgroundColor="#212121"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/vogue" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/mrmrsvit"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/vogue2"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mrmrsvit" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="highlight">#B6B6B6</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FFA000</color>
+    <color name="grey">#212121</color>
+    <color name="lightgrey">#424242</color>
+    <color name="text">#FFFFFF</color>
+    <color name="orange">#FFB300</color>
+    <color name="orange2">#FFA000</color>
+    <color name="orange3">#FF8F00</color>
+
+    <color name="screen1">#00e676</color>
+    <color name="screen2">#e91e63</color>
+    <color name="screen3">#8e24aa</color>
+    <color name="screen4">#ffb300</color>
+
+    <color name="dot_darkscreen1">#00c853</color>
+    <color name="dot_darkscreen2">#ad1457</color>
+    <color name="dot_darkscreen3">#7b1fa2</color>
+    <color name="dot_darkscreen4">#ff6f00</color>
+
+    <color name="dot_lightscreen1">#69f0ae</color>
+    <color name="dot_lightscreen2">#f06292</color>
+    <color name="dot_lightscreen3">#ba68c8</color>
+    <color name="dot_lightscreen4">#ffd54f</color>
+
+    <array name="dot_active">
+        <item>@color/dot_lightscreen1</item>
+        <item>@color/dot_lightscreen2</item>
+        <item>@color/dot_lightscreen3</item>
+        <item>@color/dot_lightscreen4</item>
+    </array>
+
+    <array name="dot_inactive">
+        <item>@color/dot_darkscreen1</item>
+        <item>@color/dot_darkscreen2</item>
+        <item>@color/dot_darkscreen3</item>
+        <item>@color/dot_darkscreen4</item>
+    </array>
+
+
+
+</resources>

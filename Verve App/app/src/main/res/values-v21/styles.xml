@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+    <style name="mystyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorPrimary">#000</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FBF5F3</item>
+        <item name="android:actionMenuTextColor">#FBF5F3</item>
+    </style>
+
+    <style name="Events" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorPrimary">#FFB300</item>
+        <item name="android:textColorSecondary">#FFB300</item>
+        <item name="android:actionMenuTextColor">#FFB300</item>
+    </style>
+
+    <style name="Register" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">#FBF5F3</item>
+        <item name="android:textColorSecondary">#FFA000</item>
+        <item name="android:editTextColor">#FBF5F3</item>
+    </style>
+
+</resources>

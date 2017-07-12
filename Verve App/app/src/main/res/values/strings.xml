@@ -1,0 +1,638 @@
+<resources>
+    <string name="app_name">Verve2017</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="events">
+        <item>Wheel of Fortune</item>
+        <item>Hurt Locker</item>
+        <item>Code Hoax</item>
+        <item>Lan Gaming</item>
+        <item>Robo Wars</item>
+        <item>Glow Football</item>
+        <item>Technical Paper Presentation</item>
+        <item>Scavenger Hunt</item>
+        <item>Lazer Maze</item>
+        <item>Go Startup</item>
+        <item>Geocaching</item>
+        <item>Touchme Not</item>
+        <item>Lazer Tag</item>
+        <item>Circuit Debugging</item>
+        <item>Arcade Corner</item>
+        <item>Robo soccer</item>
+        <item>Alors On Dance</item>
+        <item>Lets Nacho</item>
+        <item>Re dhun</item>
+        <item>Spotlight</item>
+        <item>Streets</item>
+        <item>Nukkad Natak</item>
+        <item>Vogue</item>
+        <item>Mr and Ms VIT</item>
+        <item>Long Football</item>
+        <item>Alley Oop</item>
+        <item>Smash</item>
+        <item>Tabel Tennis</item>
+        <item>Super Sixes</item>
+        <item>Cage Football</item>
+        <item>Pro Kabbadi</item>
+        <item>Box Cricket</item>
+        <item>Blitzcrieg Chess</item>
+        <item>Mini Football</item>
+        <item>Throwball</item>
+        <item>Chess</item>
+        <item>face off</item>
+        <item>Courtroom</item>
+        <item>Poetry</item>
+        <item>Vaad Vivad</item>
+        <item>Shabd Sandhan</item>
+        <item>Kalla Kruti</item>
+        <item>Face Painting</item>
+        <item>Sculpting</item>
+        <item>Pot painting</item>
+        <item>Master Painter</item>
+        <item>Kala Youth</item>
+        <item>Picure-esque</item>
+        <item>Perspective</item>
+    </array>
+
+    <string name="aboutvit"> The Vidyalankar Group of Educational Institutes is a prestigious education specialist that has been recognized (NBA) and has qualitative institutes with 25+ branches accross India.
+
+Managed by the Vidyalankar Dyanapeeth Trust Established in 1960 by Prof Chandrashekar S. Deshpande an all India topper, the Vidyalankar Group is marching ahead resolutely, ably steered by its late Chairperson Dr. Sanjeewani Deshpande along with Mr. Vishwas Deshpande and Mrs. Rashmi Deshpande (Managing Trustees).
+ </string>
+
+    <string name="collegelife"> Being popularly known as a Shopping Mall amoung students visiting for the first time, Vidyalankar boasts of one of the best infrastructure and campus facilities it offers to its students starting from Air-conditioned classrooms to excellent state-of-art library,canteen,gymkhana and sports facilities.
+        Thus, ensuring all round development of all students be it Engineering, Diploma or Polytechnic. The whole campus is equipped with hi-speed Wifi and advanced laboratories to ensure nothing stops the students from learning what they want.  </string>
+
+    <string name="aboutverve"> The scene is set; your eyes see every person looking chic and elegant, your heartbeat is in sync with the latest trending EDM your ears can hear and you smell the scent of zeal in the air. Well then, you are experiencing the ultimate expression of enthusiasm- VERVE.
+
+The true spirit and mood of our fests are the result of creative hard work put in by the entire organizing committee. Thus it proves to be an ideal platform for students to develop management, decision making and negotiation skills. It is a place where innovative ideas are encouraged and implemented. And in many ways, this develops leadership skills in our students</string>
+
+    <string name="contact_us"> Feel free to contact us anytime,anywhere on the go ! Our pub heads are just a call away ! We will be looking forward to hear from you.</string>
+
+    <string name="social">Just Click any one the following cards to visit and follow us on these pages to stay updated and notified about each and everything about Verve !</string>
+
+    <string name="tech1">Rules:\n\n
+Round 1:\n A technical quiz wherein questions will be fired at both the teams simultaneously and the ones who press the buzzer first get a chance to answer the question.\n
+Round 2:\n Before every Question, the wheel is rotated and questions will be asked on the topic that appears on the wheel.\n
+Round 3:\n Out of the 4 teams, 2 top scorers will go in a final rapid fire round and one winner will be declared.\n
+\n\nEach team has equal chance of answering the question by pressing the buzzer.
+One who answers most questions right and wins points wins in the end.\n\n
+Prizes:\n\n
+Winner:\n Rs 500 + Vouchers\n\n
+Participants:\n
+4 teams of 2 each at a time.</string>
+
+    <string name="tech2">The players have to find the FM Radios transmitting at a
+particular frequency and when found, to turn the radio off.
+It resembles a bomb planted at a particular place, which
+needs to be defused.\n\n
+        Participants no:3\n\n
+Fees: 50 per team\n\n
+Prizes will be distributed based on the least time taken by
+team.\n
+Start time and stop time will be recorded by the event
+management,\n
+Management decision will be final.\n
+Valid selfie will be needed as proof for the diffusing of bomb.\n
+Winners will be announced after all the teams time and
+photos are been recorded.\n
+
+    </string>
+
+    <string name="tech3">A full-Fledged algorithmic coding competition designed for coders to crack, powered by hackerrank.\n\n
+
+
+        Rules:\n\n
+NO CODE PLAGIARISM.\n
+3 hours time. 2 Questions.\n
+Submit your code online on our online debugger.\n
+Clear all the test cases in fastest time to win amazing prizes !\n\n
+
+Prizes:\n\n
+Winner: Rs 1000\n
+Runner Up: Rs 500\n\n
+Participants:\n
+Individual/Teams of 2\n\n
+Cost:\n
+Rs 50 </string>
+
+    <string name="tech4">Calling all the Gaming geeks to show their legacy in Counter Strike ,FIFA and NFS.\n\n
+    CS Prize:\n
+Winner: 4000 + vouchers
+Runner Up: 2000 + vouchers\n\n
+FIFA Prize:\n
+Winner: 3000 + vouchers\n
+Runner Up: 1000 + vouchers\n\n
+NFS Prize:\n
+Winner: 2000 + vouchers\n
+Runner Up: 1000 + vouchers\n\n
+Cost:\n
+CS- Team of 5 Rs 50 per person\n\n
+FIFA:\n Rs 50 pp\n\n
+NFS:\n Rs 50 pp\n
+    </string>
+
+    <string name="tech5">Ready for some wrestling action? Not the Real Wrestling, but wrestling with the Robots. Time for some Real Steel! Come join the action.\n\n
+    Rules:\n
+Knockout the opposite bot\n\n
+
+Prizes:\n\n
+Winner:\n Voucher\n
+
+    </string>
+
+    <string name="tech6">We all love playing football, dont we? Now get to experience playing football in a dark room where you can only see the glowing football and the goal post lines and nothing else.\n\n
+        Rules:\n\n
+Basic football rules.\n
+Waist height is ball rise limit.\n
+7 min game time.\n
+No outside and centre start.\n\n
+
+Prizes:\n\n
+Winner:\n Vouchers\n\n
+Participants:\n
+Three a side per team\n
+
+    </string>
+
+    <string name="tech7">Present your idea in front of an audience.\n\n
+    Rules:\n
+Paper Presentation is all about how you put your topic or present your topic in front of the audience.
+They see the way you present your topic, the way you put your points, your presentation style, your language and how promptly and effectively you answer their questions.\n\n
+
+Prizes:\n\n
+Winner:\n Rs 3500\n
+Runner Up:\n Rs 2000\n\n
+Participants:\n
+Group of 2 to 4 per paper\n\n
+Cost:\n
+Rs 100\n
+    </string>
+    <string name="tech8">The team which reaches the X spot or finds the treasure will win the prize pot.\n\n
+    Rules:\n
+A treasure hunt is one of many different types of games with more than two groups who try to find hidden objects or places by following a series of clues.
+Treasure hunt game will be throughout the campus.\n\n
+
+Prize:\n\n
+Winner: 250 + Vouchers\n
+Runner Up: 150 + Vouchers\n\n
+Participants:\n
+Group of 3\n\n
+Cost:\n
+Rs 30\n
+    </string>
+    <string name="tech9">Ready for some laser attack? Here we are with the laser mystery LASER MAZE All you need to do is challenge yourself and cross the obstacles. So come and join us in the Fun interesting Maze!\n\n
+        Rules:\n
+One simple rule � You touch the laser and you are out!\n\n
+
+Prizes:\n
+Winner: Vouchers\n
+
+
+    </string>
+    <string name="tech10">Have it in you to make it in Silicon Valley? Come lets play a game to check you start up game. \n\n
+Rules:\n
+All you have to do is to brainstorm and come up with the best possible idea to the problem we give and have the confidence to sell it like a pro.\n\n
+
+Prizes:\n
+Winner: Rs 500 + Vouchers\n
+Runner Up: Rs 300 + Vouchers\n\n
+Participants:\n
+Group of 2\n\n
+Cost:\n
+Rs 30\n
+
+    </string>
+    <string name="tech11">Do you want to rediscover Mumbai?! Visit all the places by participating in this event. Reveal the corners of Mumbai in an exciting time constrained competition where the winning team completes all the tasks first!!\n\n
+
+        Prizes:\n
+Winner: Rs 1500 + Vouchers\n
+    </string>
+
+    <string name="tech12">Enjoy the feel of the real battleground without getting hurt!! By taking part in laser tag One of the most awaited event this season. Load your guns and be there !\n\n
+        Prize:\n
+Winner: Vouchers\n
+
+
+    </string>
+    <string name="tech13">Enjoy the feel of the real battleground without getting hurt!! By taking part in laser tag One of the most awaited event this season. Load your guns and be there !\n\n
+        Prize:\n
+Winner: Vouchers\n
+
+    </string>
+    <string name="tech14">Round 1- Maze runner\n
+Round 2- Game of codes\n
+Round 3- Imitation game\n\n
+
+        Prizes:\n
+Winner: Rs 1000 + Voucher\n
+
+    </string>
+    <string name="tech15">Relive your childhood memories!\n\n
+        Play and compete in an amazing selection of over 300 retro games on classic arcade machines.
+Play with your friends and set the highest score in VIT to win exciting prizes!
+Mario, Bomberman, Sonic are thousands of their friends are waiting for you to play their game, dont let them down! Come to to have the time of your lives, not kidding.\n
+
+
+    </string>
+    <string name="tech16">
+        Interested in soccer? Want to play it in a different way? Get ready to football with the Robo�s Here we are with one of the most Amazing event Robosoccer . Pick up your Robo and lets football!\n\n
+Rules:\n\n
+DAY 1-\n Participants will be taught how to make level 1 robots with kits provided on the spot.\n
+DAY 2,3-\n Robosoccer played with the bots made on the previous days.
+On the spot entries allowed.\n\n
+
+Prizes:\n
+Winner: Rs 1000\n
+Runner Up: Rs 500\n
+    </string>
+
+    <string name="pa1">Group Dance Competition \n\n
+        Rules:\n\n
+Time limit: 8-10 minutes\n
+Tracks should be submitted two days prior to the event.\n
+Vulgarity with respect to costumes and performance will not be entertained.\n
+Points will be deducted for exceeding the time limit.\n
+OTSE is not allowed.\n
+Decision of judge will be final and binding on all the teams.\n\n
+
+Prizes:\n
+Winner : Rs 8000\n\n
+Participants:\n
+Team size: 8-15 + 1NPA (Not Compulsory)\n
+Runner Up: Rs 3000 \n
+
+
+
+    </string>
+    <string name="pa2">Solo/Duet Dancing competition\n\n
+        Rules:\n\n
+There will be two rounds (elimination and finals).\n
+The time limit is 3 minutes. Negative points for exceeding the time limit.\n
+All the participants are requested to carry their audio tracks in a pen drive and also in their mobile phones to avoid technical disturbance. (audio format- .mp3).\n
+All the participants are requested to report at the registration desk at least an hour before the event is scheduled to begin.\n
+All participants have to be in full costume at the time of registration.\n
+Costume during eliminations is not compulsory.\n
+All the participants must carry their own college identity card.\n
+There is no particular theme.\n
+Participants should get their own props.\n
+All props must be specified to the event coordinator.\n
+Choice of song is open to the participants.\n
+Vulgarity/profanity/obscenity with respect to songs, choreography and costumes will lead to disqualification.\n
+OTSE is allowed only during elimination.\n
+The decision of Judges will be final and binding.\n
+
+Prizes:\n\n
+Winner (Solo): Rs 1500\n
+Winner (Duet): Rs 1500 \n
+
+
+
+    </string>
+    <string name="pa3">Solo/Duet Singing Competition\n\n
+        Rules:\n\n
+Round1 : Elimination round\n
+1. Time limit- 3 mins.\n
+2. At the end of 2 min warning bell will be given, if you exceed 3 mins negative marking will be given.\n
+3.Instrumental tracks, instruments are allowed (optional).\n
+4. OTSE is allowed\n\n
+Round2: Finals\n
+1. Time limit- 4 mins.\n
+2. At the end of 3 min warning bell will be given, if you exceed 3 mins negative marking will be given.\n
+3. Instrumental track compulsory or instruments.\n
+
+Prizes:\n\n
+Winner (Solo): Rs 1500\n
+Winner (Duet): Rs 1500\n
+
+
+    </string>
+    <string name="pa4"><big>Monoacting/Mime</big>\n\n
+        Rules:\n\n
+Monoacts including Mimicry and Mime are welcome\n
+Participants should be present 30mins prior to the competition time.\n
+Act should not extend 7 mins.\n
+If any props are required,it should be informed prior.\n
+If any track/audio is needed, it should be submitted 2 days prior.\n
+Clothing or actions that could be perceived as vulgar or clearly offensive are strictly prohibited.\n
+OTSE is allowed\n
+Decision of the judge will be final and binding on all teams.\n\n
+
+Prizes:\n
+Winner: Rs 1000\n
+
+
+    </string>
+    <string name="pa5">Street Dance Competition. \n\n
+        Rules:\n\n
+1. The event will comprise of two rounds In The first round the teams have to perform their basic routine and only 2 teams progress to the 2nd round which is a face off round.\n
+2. For round 1, the performance should not exceed 7 mins. Scores will be deducted if time limit is exceeded.\n
+3. A track will be provided to both the teams that progress to the 2nd round.\n
+4. Each team should have minimum 10 members and maximum 12.\n
+5. The tracks for round 1 should be submitted 3 days prior to the event in MP3 format only.\n
+6. The team will be disqualified If any offensive behaviour is observed.\n\n
+
+Prizes:\n
+Winner: Rs 5000\n
+Runner Up: Rs 2000\n
+
+
+    </string>
+    <string name="pa6">Street Play Competition.\n\n
+        Rules:\n
+All the members of the team will have to participate in the street play.\n
+Teams should restrict their play in 12 minutes (10+2) time.\n
+Teams exceeding 12 minutes will be given negative marks.\n
+Language of the play: HINDI.\n
+Participants must report at the venue 1 hour prior to the commencement of the event.\n
+Competition will be conducted in open space and hence no microphones, speakers, music systems will be allowed or available. Teams can sing /dance by themselves to create the necessary music or sound.\n
+Teams may use props but need to inform the event coordinator beforehand. Teams using any props/costumes/dressing should bring all their belongings and must be ready well in time as per the instructions of the event coordinator. No props/ costume or any material will be provided by the host college.\n
+No time for rehearsal /stage practice will be given.\n
+Clothing or actions that could be perceived as vulgar or clearly offensive are strictly prohibited.\n
+NO USE OF ABUSIVE WORDS\n
+Decision of judge will be final and binding on all the teams.\n
+OTSE is not allowed.\n\n
+
+Prizes:\n
+Winner: Rs 3000\n
+Runner: Rs 1500\n\n
+Participants:\n
+The total number of participants in each team should be 8-15(maximum).\n
+
+
+    </string>
+    <string name="pa7">Fashion Show Competition.\n\n
+        Rules:\n\n
+1.Team size: 8-15 + 1NPA (Not Compulsory) Time limit: 8-10 minutes\n
+2. Tracks should be submitted two days prior to the event\n
+3. Vulgarity with respect to costumes and performance will not be entertained\n
+4. Points will be deducted for exceeding the time limit\n
+5. OTSE is not allowed\n
+6. Decision of the judge will be final and binding on all the teams\n\n
+
+Prizes:\n\n
+Winner: Rs 8000\n
+Runner Up: Rs 3000\n
+
+
+    </string>
+    <string name="pa8">Personality Contest.\n\n
+        Round 1 : Group discussion and a surprise section. Time limit for Group discussion will be 3 mins.\n\n
+Round 2 : Talent Round. Time limit for this will be 3 mins.\n\n
+Round 3 : Final Round. It will have ramp walk, questionnaire and talent display. Time limit for talent display will be 4 mins.\n\n
+Participants must keep in mind that in case they get selected in round 1, they will have to appear for round 2 on the very next day.\n
+Failure to be present will result in disqualification.\n\n
+
+Prizes:\n\n
+Winner (Mr VIT): Vouchers\n
+Winner (Ms VIT): Vouchers \n
+
+
+
+    </string>
+
+    <string name="sports1">Dates:\n
+11,12  February  2017\n\n
+Participants:\n
+Boys: 7+3\n\n
+Cost:\n
+Rs 1000</string>\n
+    <string name="sports2">Dates:\n
+15 February 2017\n\n
+Participants:\n
+Boys: 6+3\n
+Girls:3+2\n\n
+Cost:\n
+Boys: Rs 500\n
+Girls:Rs 300\n
+
+    </string>
+    <string name="sports3">Dates:\n
+11 February 2017\n\n
+Participants:\n
+Boys: 7+5\n\n
+Cost:\n
+Rs 700\n</string>
+    <string name="sports4">Dates:\n
+11,12 February 2017\n\n
+Participants:\n
+Singles\n
+Doubles\n\n
+Cost:\n
+Singles: Rs 80\n
+Doubles: Rs 160\n</string>
+    <string name="sports5">Dates:\n
+15-17 February 2017\n\n
+Participants:\n
+Boys:7+3\n\n
+Cost:\n
+Rs 1100\n</string>
+    <string name="sports6">Rules:\n
+11,12 February 2017\n\n
+Participants:\n
+Boys:3+2\n\n
+Cost:\n
+Rs 300\n</string>
+    <string name="sports7">Dates:\n
+16,17 February 2017\n\n
+Participants:\n
+Boys: 7+5\n\n
+Fees:\n
+Rs 700\n</string>
+    <string name="sports8">
+        Dates:\n
+15-17 February 2017\n\n
+Participants:\n
+Boys: 6+2\n\n
+Cost:\n
+Rs 300\n
+    </string>
+    <string name="sports9">Dates:\n
+11,12 February 2017\n\n
+Participants:\n
+Singles\n\n
+Cost:\n
+Rs 100\n</string>
+    <string name="sports10">Dates:\n\n
+11,12 February 2017\n\
+Participants:\n\n
+Boys: 4+2\n
+Girls: 3+2\n
+Cost:\n\n
+Boys: Rs 400\n
+Girls: Rs 250\n</string>
+    <string name="sports11">
+        Dates:\n
+12 February 2017\n\n
+Participants:\n
+Girls: 7+3\n\n
+Cost:\n
+Rs 600\n
+    </string>
+    <string name="sports12">Dates:\n
+11,12 February 2017\n\n
+Participants:\n
+Singles\n
+Doubles\n\n
+Cost:\n
+Singles: Rs 80\n
+Doubles:Rs 160\n</string>
+
+    <string name="la1">Traditional and formal form of debates in English language.\n\n
+    Rules:\n\n
+Eliminations for this event will be held.\n
+Topics for the debate will be provided on the spot.\n
+The proposing and opposing teams shall be decided by a coin toss.\n
+For eliminations:\n\n
+Introduction: 1.5 mins Rebuttal: 7 mins Conclusion: 1.5 mins\n
+For finals:\n\n
+Introduction: 3 mins Rebuttal: 12 mins Conclusion: 3 mins\n
+Mutual respect for opponents by participants is expected.\n
+Any unhealthy discussion initiated by a team, they will be disqualified immediately.\n\n
+
+Prizes:\n
+Winner: Rs 1500\n
+Runner Up: Rs 1000\n
+    </string>
+    <string name="la2">This event deals with dealing and dodging problems and coming up with innovative solutions in courtroom style.\n\n
+        Rules:\n\n
+It is a 2 member event.\n\n
+Round 1: Participants will be given a petition. They have to present it to the house. For the first 1.5 mins they have to speak for it and the next 1.5 minutes they have to speak against it. It will be followed by a question answer session by the judges. And the house will be open to a limited amount of questions.\n
+Round 2: Here a criminal case will be provided, and the participants have to come up with plot twists and storyline to prove and convince the judge that a particular suspect is guilty.\n
+Participants will be judged on the basis of their ideas, innovative solutions and critical thinking.\n\n
+
+Prizes:\n\n
+Winner: Rs 1500\n
+Runner Up: Rs 1000\n
+
+
+    </string>
+    <string name="la3"> Just A Minute.\n\n
+    </string>
+
+    <string name="la4">Conventional Poetry Slam with no language barrier to the participants.\n\n
+        Rules:\n\n
+It is a single participant event.\n
+No language barrier.\n
+Participants will get 30 mins of thinking time on the topic that is given.\n
+They will get 3 mins to present their poem.\n
+Participants will be judged on the basis of their proficiency in the language, creativity, presentation style.\n\n
+
+Prizes:\n
+Winner: Rs 1000\n
+Runner Up: Rs 500\n
+
+
+    </string>
+    <string name="la5">Formal Debates with traditional rules and regulations in Marathi.\n\n
+        Rules:\n\n
+Eliminations for this event will be held.\n
+Topics for the debate will be provided on the spot.\n
+The proposing and opposing teams shall be decided by a coin toss.\n
+For eliminations:\n\n
+Introduction: 1.5 mins Rebuttal: 7 mins Conclusion: 1.5 mins\n
+For finals:\n\n
+Introduction: 3 mins Rebuttal: 12 mins Conclusion: 3 mins\n
+Mutual respect for opponents by participants is expected.\n
+Any unhealthy discussion initiated by a team, they will be disqualified immediately.\n\n
+
+Prizes:\n
+Winner: Rs 1500\n
+Runner Up: Rs 1000\n
+
+
+    </string>
+    <string name="la6">This event will test your Marathi vocabulary. \n\n
+        Rules:\n\n
+It is a team event with 2 members.\n
+Round 1: It is a quiz based on Marathi vocabulary.\n\n
+Round 2: In this round, the teams are given a topic on the spot. They are given 2 min thinking time. One of them has to speak for the topic for a minute and then against the topic for the next minute. The other member will answer questions which the judge asks on the basis of what the first member spoke.\n\n
+Round 3: Each team is given a case study. They have to convince the judge that the direction in which the story is headed is correct.\n\n
+
+Prizes:\n
+Winner: Rs 1200\n
+Runner Up: Rs 800\n
+
+
+    </string>
+    <string name="la7">This event is spiced up with the tadka of Marathi entertainment industry and Marathi literature.\n\n
+
+Rules:\n\n
+Round 1: This round is a quiz based on general questions on Marathi film industry and literature.\n\n
+Round 2: in this round a 1.5 min muted video from any Marathi film or serial will be shown and the participants will have to dub the video in their own creative and authentic style.\n\n
+Round 3: In this round the participants will be given a famous Marathi movie and they have to enact the parody of that movie with some twist and humor.\n\n
+
+Prizes:\n
+Winner: Rs 1200\n
+Runner Up: Rs 800\n
+    </string>
+
+
+    <string name="fa1">Rules:\n\n
+Theme Based Photography.\n
+Theme will be provided one week prior to the event.\n
+Within that week participants will need to mail the picture on vcalibreclickers@gmail.com\n
+Only vibrant colors and monochrome allowed.\n</string>
+    <string name="fa2">Which other way to express a feeling or a thought other than a body art!\n\n
+    Rules:\n\n
+Participants need to have an accompanist on whom they can exhibit body art (1 NPA).\n
+Participants will be provided a theme followed by 45 mins of time to draw the tattoo.\n
+No professional equipment allowed, only washable paints will be provided.\n\n
+
+Prizes:\n
+Winner: Rs 1000\n
+Runner Up: Rs 500\n
+    </string>
+    <string name="fa3">An amalgamation of several different fine arts.\n\n
+    Rules:\n\n
+The participants will be in a team of two.\n
+Each team has to perform several tasks.\n
+The task they need to perform will be revealed to them through a puzzle.\n
+The tasks given to the members are to be completed within 2 hours.\n\n
+
+Prizes:\n
+Winner: Rs 1200\n
+Runner Up: Rs 800\n
+    </string>
+    <string name="fa4">Classic pot painting event to explore your creative side based on the theme provided for painting the pot.\n\n
+    Rules:\n\n
+Single participant event. Pots will be provided.\n
+Participants will be provided with a theme followed by 1.5 hours of painting time.\n
+Participants will be judged on the basis of their uniqueness, creativity and artistic skills.\n\n
+
+Prizes:\n
+Winner: Rs 1000\n
+Runner Up: Rs 500\n
+    </string>
+    <string name="fa5">Create a beautiful carving and/or sculpture on a clay model or a soap provided.\n\n
+    Rules:\n\n
+Single participant event.\n
+Participants will have 1.5 hours to carve in accordance to the theme/topic.\n
+Soap bar/clay will be provided.\n
+Sculpting will be done using daily objects.\n
+Toothpicks only, no other sharp objects can be used for sculpting and carving.\n\n
+
+Prizes:\n
+Winner: Rs 1000\n
+Runner Up: Rs 500\n
+    </string>
+    <string name="fa6">An unconventional painting event which checks on time management skills along with painting skills.\n\n
+    Rules:\n\n
+A theme for a painting will be provided and before that the teams will bid for their material at the cost of their time and accordingly the more material they buy, the lesser their time gets.\n
+Except basic stationery, all the material will be provided.\n
+Participants have 2 hours of time in hand, with which they start bidding over resources for their painting.\n
+Bidding of items is done first followed by different time for different teams for completion of their piece of art.\n
+Participants will be judged on the basis of their creativity and uniqueness.\n\n
+
+Prizes:\n
+Winner: Rs 1200\n
+Runner Up: Rs 800\n
+    </string>
+    <string name="fa7">Rules:\n\n
+On the spot entries allowed.\n
+No mobiles allowed.\n
+Need to click three pictures on the given challenge.\n</string>
+
+
+</resources>

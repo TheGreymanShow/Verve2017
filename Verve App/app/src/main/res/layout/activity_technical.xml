@@ -1,0 +1,380 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/eventsframe"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/toolbar"
+            android:id="@+id/toolbar2"
+            ></include>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgrey"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="thegreymanshow.verve2017.Technical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/wheel"
+                android:onClick="onClick"
+                android:layout_width="190dp"
+                android:layout_height="150dp"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#f44336"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/wheeloffortune" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/hurt"
+                android:onClick="onClick"
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/wheel"
+                app:cardBackgroundColor="#212121"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="174dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hurtlocker" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/codehoax"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_below="@+id/wheel"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#aeea00"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                android:onClick="onClick"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/code"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/codehoax" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/lan"
+                android:onClick="onClick"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/codehoax"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#424242"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/langaming" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/robo"
+                android:onClick="onClick"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_below="@+id/lan"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#1976d2"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/robo" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/glow"
+                android:onClick="onClick"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/robo"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#f44336"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/glowfootball" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/tpp"
+                android:onClick="onClick"
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/robo"
+                android:layout_margin="12dp"
+                android:layout_toRightOf="@+id/glow"
+                app:cardBackgroundColor="#212121"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tpp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/scavenger"
+                android:onClick="onClick"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/glow"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#424242"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/scavengerhunt" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/lazermaze"
+                android:onClick="onClick"
+                android:layout_width="wrap_content"
+                android:layout_height="185dp"
+                android:layout_below="@+id/scavenger"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#424242"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lazermaze" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/startup"
+                android:onClick="onClick"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/lazermaze"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#f44336"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gostartup" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/geo"
+                android:onClick="onClick"
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/lazermaze"
+                android:layout_margin="12dp"
+                android:layout_toRightOf="@+id/startup"
+                app:cardBackgroundColor="#212121"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/geocaching" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/touchme"
+                android:onClick="onClick"
+                android:layout_width="wrap_content"
+                android:layout_height="185dp"
+                android:layout_below="@+id/startup"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#424242"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/touchmenot" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/lazertag"
+                android:onClick="onClick"
+                android:layout_width="wrap_content"
+                android:layout_height="185dp"
+                android:layout_below="@+id/touchme"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#424242"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lazertag" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/circuit"
+                android:onClick="onClick"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/lazertag"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#f44336"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/circuit" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/arcade"
+                android:onClick="onClick"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/lazertag"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/circuit"
+                app:cardBackgroundColor="#212121"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/arcade" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/robosoccer"
+                android:onClick="onClick"
+                android:layout_centerHorizontal="true"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/arcade"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp"
+                app:cardBackgroundColor="#212121"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/robosoccer2" />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

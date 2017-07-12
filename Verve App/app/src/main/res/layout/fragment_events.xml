@@ -1,0 +1,225 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="thegreymanshow.verve2017.Events"
+    android:background="@color/lightgrey"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/technical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="10dp"
+            android:onClick="onClick"
+            app:cardPreventCornerOverlap="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/technical2"
+                    android:id="@+id/tech"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Technical Events"
+                    android:textColor="@color/orange"
+                    android:layout_below="@id/tech"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:typeface="normal"
+                    android:textStyle="normal|bold" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/PA"
+            android:onClick="onClick"
+            android:layout_below="@+id/technical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/pa"
+                    android:id="@+id/pa"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Performing Arts"
+                    android:textColor="@color/orange2"
+                    android:layout_below="@id/pa"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:typeface="normal"
+                    android:textStyle="normal|bold" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/sports"
+            android:onClick="onClick"
+            android:layout_below="@+id/PA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/sports"
+                    android:id="@+id/sports1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sports Mania"
+                    android:textColor="@color/orange2"
+                    android:layout_below="@id/sports1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:typeface="normal"
+                    android:textStyle="normal|bold" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/lit"
+            android:onClick="onClick"
+            android:layout_below="@+id/sports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/la"
+                    android:id="@+id/lit1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Literary Arts"
+                    android:textColor="@color/orange2"
+                    android:layout_below="@id/lit1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:typeface="normal"
+                    android:textStyle="normal|bold" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/fine"
+
+            android:onClick="onClick"
+            android:layout_below="@+id/lit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/fa"
+                    android:id="@+id/fine1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fine Arts"
+                    android:textColor="@color/orange2"
+                    android:layout_below="@id/fine1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:typeface="normal"
+                    android:textStyle="normal|bold" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+</android.support.v4.widget.NestedScrollView>
